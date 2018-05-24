@@ -6,7 +6,6 @@ const Header = () => (
     <p>I'm what you call a full stack developer—<br/>working with Javascript and Ruby.</p>
     <p>I love building new things with code.<br/></p>
   </div>
-  
 )
 
 export default Header;
