@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Wrapper = styled.section`
   display: grid;
+  height: 600px;
   font-size: 2em;
 `;
 
