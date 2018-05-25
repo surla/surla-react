@@ -19,6 +19,7 @@ const Projects = () => (
   <Wrapper>
     <Title>Projects</Title>
     <Project />
+    <Project />
   </Wrapper>
 )
 

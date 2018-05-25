@@ -5,11 +5,17 @@ const Wrapper = styled.section`
   font-family: cartographmono-regular;
 `
 
+const ProjectInfo = styled.div`
+  height: 160px;
+  background-color: #2A92F1;
+`
+
 const ProjectTitle = styled.h3`
   font-family: cartographmono-bold;
   text-transform: uppercase;
   font-size: 2em;
   margin-left: 1em;
+  padding-top: 1em;
 `
 
 const List = styled.ul`
@@ -23,16 +29,16 @@ const List = styled.ul`
   }
 `
 
-const Projects = () => (
+const Project = () => (
   <Wrapper>
-    <div>
+    <ProjectInfo>
       <ProjectTitle>Sinatra Application</ProjectTitle>
       <List>
         <li>Ruby</li>
         <li>Sinatra</li>
       </List>
-    </div>
+    </ProjectInfo>
   </Wrapper>
 )
 
-export default Projects;
+export default Project;
