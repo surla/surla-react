@@ -16,6 +16,12 @@
   src: local('cartographmono-regular'), url(./assets/fonts/cartographmono-regular.woff2) format('woff2');
 }
 
+@font-face {
+  font-family: 'cartographmono-bold';
+  src: local('cocartographmono-bold'), 
+  url(./assets/fonts/cartographmono-bold.woff2) format('woff2');
+}
+
 body {
   margin: 0;
   padding: 0;

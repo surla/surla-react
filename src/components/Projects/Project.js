@@ -6,15 +6,20 @@ const Wrapper = styled.section`
 `
 
 const ProjectTitle = styled.h3`
+  font-family: cartographmono-bold;
   text-transform: uppercase;
   font-size: 2em;
+  margin-left: 1em;
 `
 
 const List = styled.ul`
   list-style: none;
 
-  .li {
+  > li {
     display: inline;
+    margin-left: 1em;
+    padding: .2em .6em;
+    background-color: #69DDB8;
   }
 `
 
@@ -26,14 +31,6 @@ const Projects = () => (
         <li>Ruby</li>
         <li>Sinatra</li>
       </List>
-    </div>
-    <div>
-      <h3>QuoteList</h3>
-      <ul>
-        <li>Ruby</li>
-        <li>Ruby on Rails</li>
-        <li>jQuery</li>
-      </ul>
     </div>
   </Wrapper>
 )
