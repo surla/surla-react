@@ -3,11 +3,11 @@ import styled from 'styled-components';
 
 const Wrapper = styled.section`
   font-family: cartographmono-regular;
+  margin-bottom: 0em;;
 `
 
 const ProjectInfo = styled.div`
   height: 160px;
-  background-color: #2A92F1;
 `
 
 const ProjectTitle = styled.h3`
@@ -20,12 +20,13 @@ const ProjectTitle = styled.h3`
 
 const List = styled.ul`
   list-style: none;
+  margin-top: -20px;
 
   > li {
     display: inline;
     margin-left: 1em;
     padding: .2em .6em;
-    background-color: #69DDB8;
+    background-color: #FF843F;
   }
 `
 

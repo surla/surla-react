@@ -18,6 +18,7 @@ const Title = styled.h2`
 const Projects = () => (
   <Wrapper>
     <Title>Projects</Title>
+    
     <Project />
     <Project />
   </Wrapper>
