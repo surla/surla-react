@@ -10,6 +10,12 @@
   src: local('cartographsans-heavy'),
   url(./assets/fonts/cartographsans-heavy.woff2) format('woff2');
 }
+
+@font-face {
+  font-family: 'cartographmono-regular';
+  src: local('cartographmono-regular'), url(./assets/fonts/cartographmono-regular.woff2) format('woff2');
+}
+
 body {
   margin: 0;
   padding: 0;

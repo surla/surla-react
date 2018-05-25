@@ -1,10 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import Project from './Project'
+
 const Wrapper = styled.section`
   height: 600px;
   background-color: #E9E9E9;
-  text-transform: uppercase;
 `
 
 const Title = styled.h2`
@@ -17,6 +18,7 @@ const Title = styled.h2`
 const Projects = () => (
   <Wrapper>
     <Title>Projects</Title>
+    <Project />
   </Wrapper>
 )
 
