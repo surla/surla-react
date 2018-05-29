@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: 'cartographsans-regular';
+  src: local('cartographsans-regualr'),
+  url(./assets/fonts/cartographsans-regular.woff2) format('woff2');
+}
+
+@font-face {
   font-family: 'cartographsans-heavy';
   font-style: heavy;
   src: local('cartographsans-heavy'),
