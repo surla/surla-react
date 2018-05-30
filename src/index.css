@@ -5,6 +5,11 @@
 }
 
 @font-face {
+  font-family: 'visby-regular';
+  src: local('visby-regular'), url(./assets/fonts/visby-bold.woff2) format('woff2');
+}
+
+@font-face {
   font-family: 'cartographsans-regular';
   src: local('cartographsans-regualr'),
   url(./assets/fonts/cartographsans-regular.woff2) format('woff2');
@@ -31,7 +36,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: visby-bold;
+  font-family: visby-regular;
   background-color: #69DDB8;
   color: #111111;
 }
