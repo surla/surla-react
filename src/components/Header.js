@@ -5,6 +5,7 @@ const Wrapper = styled.section`
   display: grid;
   height: 100%;
   font-size: 2em;
+  padding: 1em;
 `;
 
 const Intro = styled.p`
