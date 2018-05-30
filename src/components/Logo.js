@@ -5,7 +5,6 @@ import logo from '../assets/images/logo.svg';
 
 const Image = styled.div`
   margin-top: 3em;
-  margin-left: 2em;
 `
 
 const Logo = () => (
