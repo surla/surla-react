@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Copyright = styled.p`
+  font-family: cartographsans-regular;
   text-align: center;
 `
 
