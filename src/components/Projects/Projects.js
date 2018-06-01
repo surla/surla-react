@@ -4,11 +4,19 @@ import styled from 'styled-components';
 import Project from './Project'
 
 const Wrapper = styled.section`
-  height: 600px;
+  font-size: 1em;
+  margin: 15px;
+  border-radius: 5px;
   background-color: #E9E9E9;
+
+  > div {
+    display: block;
+    margin: 25px 25px;
+  }
 `
 
 const Title = styled.h2`
+  display: inline-block;
   font-family: cartographsans-heavy;
   text-transform: uppercase;
   font-size: 4em;
@@ -17,10 +25,12 @@ const Title = styled.h2`
 
 const Projects = () => (
   <Wrapper>
-    <Title>Projects</Title>
+    <div>
+      <Title>Projects</Title>
     
-    <Project />
-    <Project />
+      <Project />
+      <Project />
+    </div>
   </Wrapper>
 )
 

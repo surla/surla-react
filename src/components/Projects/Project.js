@@ -14,7 +14,6 @@ const ProjectTitle = styled.h3`
   font-family: cartographmono-bold;
   text-transform: uppercase;
   font-size: 2em;
-  margin-left: 1em;
   padding-top: 1em;
 `
 
