@@ -3,18 +3,16 @@ import styled from "styled-components";
 
 const Wrapper = styled.section`
   font-family: cartographmono-regular;
-  margin-bottom: 0em;
+  border: 1px solid red;
 `;
 
-const ProjectInfo = styled.div`
-  height: 160px;
-`;
+const ProjectInfo = styled.div``;
 
 const ProjectTitle = styled.h3`
   font-family: cartographmono-bold;
+  padding-left: 20px;
   text-transform: uppercase;
   font-size: 2em;
-  padding-top: 1em;
 `;
 
 const List = styled.ul`
@@ -24,21 +22,27 @@ const List = styled.ul`
   > li {
     display: inline;
     margin-left: 1em;
-    padding: 0.2em 0.6em;
     background-color: #ff843f;
   }
 `;
 
-const Project = () => (
-  <Wrapper>
-    <ProjectInfo>
-      <ProjectTitle>Sinatra Application</ProjectTitle>
-      <List>
-        <li>Ruby</li>
-        <li>Sinatra</li>
-      </List>
-    </ProjectInfo>
-  </Wrapper>
-);
+class Project extends React.Component {
+  render() {
+    const { title, technology } = this.props;
+
+    const code = technology.map(tech => {
+      return <li>{tech}</li>;
+    });
+
+    return (
+      <Wrapper>
+        <ProjectInfo>
+          <ProjectTitle>{title}</ProjectTitle>
+          <List>{code}</List>
+        </ProjectInfo>
+      </Wrapper>
+    );
+  }
+}
 
 export default Project;
