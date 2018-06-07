@@ -13,6 +13,10 @@ const Intro = styled.section`
   font-size: 1em;
 `;
 
+const DevTitle = styled.span`
+  border-bottom: 10px solid #ff843f;
+`;
+
 const Header = () => (
   <Wrapper>
     <Intro>
@@ -20,8 +24,8 @@ const Header = () => (
         Hello, I'm Joseph Surla<br />and I love building new things with code.
       </p>
       <p>
-        I'm what you call a full stack developer—<br />working with Javascript
-        and Ruby.
+        I'm what you call a <DevTitle>full stack developer</DevTitle>—<br />working
+        with Javascript and Ruby.
       </p>
       <p>&mdash;</p>
     </Intro>
